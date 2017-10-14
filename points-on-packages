@@ -1,0 +1,30 @@
+(a) An outer class or an interface cannot be declared as "private" or "protected" [Not inner classes].
+ 
+
+(b) If you make class constructor private, you cannot create the instance of that class from outside the class. 
+ 
+
+(c) If a member data or a method is declared as "private" then they can be accessed only within the context where it is declared. The private access modifier is accessible only within the class where it is declared.
+ 
+
+(d) If you don't use any modifier, it is treated as default. The default modifier is accessible only within package.
+ 
+
+The default access modifier of Java is "private to package"
+ 
+
+(e) The protected access modifier is accessible within package and outside the package but through inheritance only. If a member data or a method is declared as "protected" then that can be accessed within the package [directory] and also by the child class present in other packages ie directories.
+
+(f) The protected access modifier can be applied on the data member, method and constructor. It can't be applied on the class. 
+ 
+
+(g) "public" access specified classes, interfaces and members can be accessed within the package and also from out side the directory. The public access modifier is accessible everywhere. It has the widest scope among all other modifiers.
+ 
+
+(h) When you override a method in child class , the access modifier of the overriding method in child class should be similar or should have higher degree of accessibility
+ 
+
+(i) In a java program if there exists any class with the access modifier of "public" then that program should be saved with the name of that class. 
+ 
+
+(j) In a java program it is not possible to have more than one class with the access modifier of "public".
