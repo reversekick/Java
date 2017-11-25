@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2017 Bitlrn Inc.
+ * All rights reserved.
+ */
+
 package com.bitlrn.intro.dowhile;
 
 import java.util.Scanner;
@@ -115,13 +120,13 @@ public class DoWhileSample {
 		return reversedNumber;
 	}
 
-	public int[] multiples(int num) {
-		int result[] = new int[10];
+	public int[] multiples(int num,int size) {
+		int result[] = new int[size];
 		int i =1;
 		do {
 			result[i-1] =num*i;
 			System.out.println(num + " * "+ i + " = "+result[i-1]);
-		} while(++i <= 10);
+		} while(++i <= size);
 		return result;
 	}
 
@@ -153,7 +158,7 @@ public class DoWhileSample {
 		System.out.println("Find multiples of this number = ");
 		x = sc.nextInt();
 
-		sample.multiples(x);
+		sample.multiples(x,10);
 
 	}
 }

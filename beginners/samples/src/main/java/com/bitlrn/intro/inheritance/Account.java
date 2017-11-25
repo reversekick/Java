@@ -1,4 +1,9 @@
 
+/*
+ * Copyright (c) 2017 Bitlrn Inc.
+ * All rights reserved.
+ */
+
 package com.bitlrn.intro.inheritance;
 
 

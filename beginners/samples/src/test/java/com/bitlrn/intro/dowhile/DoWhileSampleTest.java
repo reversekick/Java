@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2017 Cisco Systems, Inc.
+ * All rights reserved.
+ */
+
 package com.bitlrn.intro.dowhile;
 
 import org.junit.Assert;
@@ -63,7 +68,7 @@ public class DoWhileSampleTest {
     @Test
     public void multiples(){
         int result[] = {5,10,15,20,25,30,35,40,45,50};
-        Assert.assertArrayEquals(result,dws.multiples(5));
+        Assert.assertArrayEquals(result,dws.multiples(5,10));
     }
 
 
